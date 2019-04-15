@@ -1,0 +1,2 @@
+Caso esteja com probleme "Could not get any response" 
+desative o verificador ssl "SSL certificate verification"
