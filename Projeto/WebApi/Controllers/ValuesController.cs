@@ -30,14 +30,14 @@ namespace WebApi.Controllers
         public void Post([FromBody] TodoApiModel todo)
         {
             //exemplo
-            System.Diagnostics.Debug.WriteLine("Exemplo Post:" + todo.Id.ToString());
+            System.Diagnostics.Debug.WriteLine("Exemplo Post: " + todo.Id.ToString());
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] TodoApiModel todo)
         {
-            System.Diagnostics.Debug.WriteLine("Exemplo Put: " + id);
+            System.Diagnostics.Debug.WriteLine("Exemplo Put: " + id + " nome: " + todo.Name);
         }
 
         // DELETE api/values/5
