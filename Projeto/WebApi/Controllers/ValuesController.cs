@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Model;
 
 namespace WebApi.Controllers
 {
@@ -26,17 +27,17 @@ namespace WebApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] TodoApiModel todo)
         {
             //exemplo
-            System.Diagnostics.Debug.WriteLine("Exemplo Post:" + value);
+            System.Diagnostics.Debug.WriteLine("Exemplo Post: " + todo.Id.ToString());
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] TodoApiModel todo)
         {
-            System.Diagnostics.Debug.WriteLine("Exemplo Put: " + id);
+            System.Diagnostics.Debug.WriteLine("Exemplo Put: " + id + " nome: " + todo.Name);
         }
 
         // DELETE api/values/5
