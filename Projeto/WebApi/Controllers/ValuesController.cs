@@ -7,42 +7,47 @@ using WebApi.Model;
 
 namespace WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/webservece")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        // GET api/v1/webservece/clientes
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [Route("clientes")]
+        public ActionResult<IEnumerable<string>> clientes()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        // GET api/v1/webservece/5/cliente
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [Route("{id}/cliente")]
+        public ActionResult<string> cliente(int id)
         {
             return id.ToString();
         }
 
-        // POST api/values
+        // POST api/v1/webservece/cliente/gravar
         [HttpPost]
-        public void Post([FromBody] TodoApiModel todo)
+        [Route("cliente/gravar")]
+        public void gravar([FromBody] TodoApiModel todo)
         {
             //exemplo
             System.Diagnostics.Debug.WriteLine("Exemplo Post: " + todo.Id.ToString());
         }
 
-        // PUT api/values/5
+        // PUT api/v1/webservece/cliente/{id}/editar
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] TodoApiModel todo)
+        [Route("cliente/{id}/editar")]
+        public void editar(int id, [FromBody] TodoApiModel todo)
         {
             System.Diagnostics.Debug.WriteLine("Exemplo Put: " + id + " nome: " + todo.Name);
         }
 
-        // DELETE api/values/5
+        // DELETE api/v1/webservece/cliente/{id}/deletar
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        [Route("cliente/{id}/deletar")]
+        public void deletar(int id)
         {
             System.Diagnostics.Debug.WriteLine("Exemplo Delete: " + id);
         }

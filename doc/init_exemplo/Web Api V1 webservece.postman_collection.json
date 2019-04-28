@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "aba2bd8c-236e-4668-8300-4cee4b64cf67",
+		"name": "Web Api V1 webservece",
+		"description": "Iniciando estrutura para regra de clientes.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista de clientes cadastrados v1 (Teste)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44312/api/v1/webservece/clientes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44312",
+					"path": [
+						"api",
+						"v1",
+						"webservece",
+						"clientes"
+					]
+				},
+				"description": "Lista ce clientes cadastrados"
+			},
+			"response": []
+		},
+		{
+			"name": "Selecionar um cliente cadastrado v1 (Teste)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44312/api/v1/webservece/5/cliente",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44312",
+					"path": [
+						"api",
+						"v1",
+						"webservece",
+						"5",
+						"cliente"
+					]
+				},
+				"description": "Selecionar um cliente"
+			},
+			"response": []
+		},
+		{
+			"name": "Gravar cliente v1 (Teste)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Id\": 5,\n\t\"Name\": \"Teste\"\n\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44312/api/v1/webservece/cliente/gravar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44312",
+					"path": [
+						"api",
+						"v1",
+						"webservece",
+						"cliente",
+						"gravar"
+					]
+				},
+				"description": "Gravar cliente "
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Cliente selecionar v1 (Teste)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\": \"Teste\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44312/api/v1/webservece/cliente/5/editar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44312",
+					"path": [
+						"api",
+						"v1",
+						"webservece",
+						"cliente",
+						"5",
+						"editar"
+					]
+				},
+				"description": "Editar Cliente selecionar"
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Cliente v1 (Teste)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44312/api/v1/webservece/cliente/5/deletar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44312",
+					"path": [
+						"api",
+						"v1",
+						"webservece",
+						"cliente",
+						"5",
+						"deletar"
+					]
+				},
+				"description": "Deletar Cliente"
+			},
+			"response": []
+		}
+	]
+}
