@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\bin\Debug\netcoreapp2.1\ConsumindoWebApi.deps.json
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\bin\Debug\netcoreapp2.1\ConsumindoWebApi.runtimeconfig.json
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\bin\Debug\netcoreapp2.1\ConsumindoWebApi.runtimeconfig.dev.json
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\bin\Debug\netcoreapp2.1\ConsumindoWebApi.dll
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\bin\Debug\netcoreapp2.1\ConsumindoWebApi.pdb
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\obj\Debug\netcoreapp2.1\ConsumindoWebApi.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\obj\Debug\netcoreapp2.1\ConsumindoWebApi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\obj\Debug\netcoreapp2.1\ConsumindoWebApi.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\obj\Debug\netcoreapp2.1\ConsumindoWebApi.AssemblyInfo.cs
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\obj\Debug\netcoreapp2.1\ConsumindoWebApi.dll
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\ConsumindoWebApi\obj\Debug\netcoreapp2.1\ConsumindoWebApi.pdb

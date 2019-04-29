@@ -30,26 +30,26 @@ namespace WebApi.Controllers
         // POST api/v1/webservece/cliente/gravar
         [HttpPost]
         [Route("cliente/gravar")]
-        public void gravar([FromBody] TodoApiModel todo)
+        public ActionResult<string> gravar([FromBody] TodoApiModel todo)
         {
             //exemplo
-            System.Diagnostics.Debug.WriteLine("Exemplo Post: " + todo.Id.ToString());
+            return "Exemplo Post: Id: " + 20 + " Nome: " + todo.Name.ToString();
         }
 
         // PUT api/v1/webservece/cliente/{id}/editar
         [HttpPut("{id}")]
         [Route("cliente/{id}/editar")]
-        public void editar(int id, [FromBody] TodoApiModel todo)
+        public ActionResult<string> editar(int id, [FromBody] TodoApiModel todo)
         {
-            System.Diagnostics.Debug.WriteLine("Exemplo Put: " + id + " nome: " + todo.Name);
+            return "Exemplo Put: Id: " + id + " Nome: " + todo.Name;
         }
 
         // DELETE api/v1/webservece/cliente/{id}/deletar
         [HttpDelete("{id}")]
         [Route("cliente/{id}/deletar")]
-        public void deletar(int id)
+        public ActionResult<string> deletar(int id)
         {
-            System.Diagnostics.Debug.WriteLine("Exemplo Delete: " + id);
+            return "Exemplo Delete: " + id;
         }
     }
 }
