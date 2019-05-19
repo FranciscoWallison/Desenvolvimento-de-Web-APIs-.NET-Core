@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication.Util;
 
 namespace WebApplication.Controllers
 {
@@ -14,6 +16,16 @@ namespace WebApplication.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            DAL objDAL = new DAL();
+
+            /*
+            string sql = "INSERT INTO cliente(nome, data_cadastro, cpf_cnpj, data_nascimento, tipo, telefone, email, cep, logradouro, numero, bairro, complemento, cidade, uf)" +
+                "VALUES('Wallison', '2019/05/17', '02112323423', '1995/05/17', 'F', '85989129087', 'franciscowallison@gmail.com', '6000', 'Rua Emiliano', '104', 'Passare', '', 'Fortaleza', 'CE')";
+
+            objDAL.ExecutarComandoSQL(sql);
+            */
+            
+
             return new string[] { "value1", "value2" };
         }
 
@@ -21,7 +33,12 @@ namespace WebApplication.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            DAL objDAL = new DAL();
+
+            string sql = $"SELECT * FROM cliente WHERE id = {id}";
+            DataTable dados = objDAL.RetornarDataTable(sql);
+            
+            return dados.Rows[0]["nome"].ToString();
         }
 
         // POST api/values
