@@ -4,13 +4,14 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication.Models;
 using WebApplication.Util;
 
 namespace WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ClienteController : ControllerBase
     {
         // GET api/values
         [HttpGet]
@@ -43,8 +44,25 @@ namespace WebApplication.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        [Route("registrar")]
+        public ReturnAllServices Registrar([FromBody] ClienteModel dados)
         {
+            ReturnAllServices returnAllServices = new ReturnAllServices();
+
+            try {
+
+                dados.Registrar();
+                returnAllServices.Result = true;
+                returnAllServices.ErrorMessage = string.Empty;
+
+            } catch (Exception e) {
+
+                returnAllServices.Result = false;
+                returnAllServices.ErrorMessage = "Erro registrar cliente: " + e.Message;
+            }
+
+            return returnAllServices;
+       
         }
 
         // PUT api/values/5
