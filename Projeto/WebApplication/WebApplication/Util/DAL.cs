@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,7 +12,7 @@ namespace WebApplication.Util
         private static string Server = "localhost";
         private static string Database = "DBCLIENTE";
         private static string User = "root";
-        private static string Password = "";
+        private static string Password = "asd123";
         private MySqlConnection Connection;
 
         private string ConnectionString = $"Server={Server};Database={Database};Uid={User};Pwd={Password};Sslmode=none;";
