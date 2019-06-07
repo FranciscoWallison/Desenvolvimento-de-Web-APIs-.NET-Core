@@ -9,37 +9,24 @@ using WebApplication.Util;
 
 namespace WebApplication.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/clientes")]
     [ApiController]
     public class ClienteController : ControllerBase
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [Route("listagem")]
+        public List<ClienteModel> clientes()
         {
-            DAL objDAL = new DAL();
-
-            /*
-            string sql = "INSERT INTO cliente(nome, data_cadastro, cpf_cnpj, data_nascimento, tipo, telefone, email, cep, logradouro, numero, bairro, complemento, cidade, uf)" +
-                "VALUES('Wallison', '2019/05/17', '02112323423', '1995/05/17', 'F', '85989129087', 'franciscowallison@gmail.com', '6000', 'Rua Emiliano', '104', 'Passare', '', 'Fortaleza', 'CE')";
-
-            objDAL.ExecutarComandoSQL(sql);
-            */
-            
-
-            return new string[] { "value1", "value2" };
+            return new ClienteModel().Listagem();
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet]
+        [Route("value/{id}")]
+        public ClienteModel cliente(int id)
         {
-            DAL objDAL = new DAL();
-
-            string sql = $"SELECT * FROM cliente WHERE id = {id}";
-            DataTable dados = objDAL.RetornarDataTable(sql);
-            
-            return dados.Rows[0]["nome"].ToString();
+            return new ClienteModel().find(id);
         }
 
         // POST api/values
