@@ -40,6 +40,29 @@ namespace WebApplication.Models
 
         }
 
+        public void Atualizar(int idCliente )
+        {
+            DAL objDAL = new DAL();
+
+            string sql = "UPDATE cliente SET " +
+                $"nome = '{Nome}' ," +
+                $"data_cadastro = '{DateTime.Parse(Data_Cadastro).ToString("yyy/MM/dd")}' ," +
+                $"cpf_cnpj = '{Cpf_Cnpj}' ," +
+                $"data_nascimento = '{DateTime.Parse(Data_Nascimento).ToString("yyy/MM/dd")}' ," +
+                $"tipo = '{Tipo}' ," +
+                $"telefone = '{Telefone}' ," +
+                $"email = '{Email}' ," +
+                $"cep = '{Cep}' ," +
+                $"logradouro = '{Logradouro}' ," +
+                $"numero = '{Numero}' ," +
+                $"bairro = '{Bairro}' ," +
+                $"complemento = '{Complemento}' ," +
+                $"cidade = '{Cidade}' ," +
+                $"uf = '{Uf}' WHERE id = {idCliente}";
+
+            objDAL.ExecutarComandoSQL(sql);
+        }
+
         public List<ClienteModel> Listagem()
         {
 
@@ -110,6 +133,22 @@ namespace WebApplication.Models
             };
          
             return item;
+        }
+
+
+        public void deletar(int id)
+        {
+
+            DAL objDAL = new DAL();
+
+            string sql = $"SELECT * FROM cliente WHERE id = '{id}'";
+            DataTable dados = objDAL.RetornarDataTable(sql);
+
+            if (dados.Rows.Count != 0) {
+                string sqlDelete = $"DELETE FROM cliente WHERE id = '{id}'";
+                DataTable dadoDelte = objDAL.RetornarDataTable(sqlDelete);
+            }
+           
         }
     }
     

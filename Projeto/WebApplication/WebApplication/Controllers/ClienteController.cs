@@ -9,7 +9,7 @@ using WebApplication.Util;
 
 namespace WebApplication.Controllers
 {
-    [Route("api/clientes")]
+    [Route("api/cliente")]
     [ApiController]
     public class ClienteController : ControllerBase
     {
@@ -52,16 +52,38 @@ namespace WebApplication.Controllers
        
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/atualizar/5
+        [HttpPut]
+        [Route("atualizar/{id}")]
+        public ReturnAllServices Atualizar(int id, [FromBody] ClienteModel dados)
         {
+            ReturnAllServices returnAllServices = new ReturnAllServices();
+
+            try
+            {
+
+                dados.Atualizar(id);
+                returnAllServices.Result = true;
+                returnAllServices.ErrorMessage = string.Empty;
+
+            }
+            catch (Exception e)
+            {
+
+                returnAllServices.Result = false;
+                returnAllServices.ErrorMessage = "Erro registrar cliente: " + e.Message;
+            }
+
+            return returnAllServices;
+
         }
 
         // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        [Route("deletar/{id}")]
+        public void Deletar(int id)
         {
+             new ClienteModel().deletar(id);
         }
     }
 }

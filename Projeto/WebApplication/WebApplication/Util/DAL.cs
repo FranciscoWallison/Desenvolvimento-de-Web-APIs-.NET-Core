@@ -15,7 +15,7 @@ namespace WebApplication.Util
         private static string Password = "asd123";
         private MySqlConnection Connection;
 
-        private string ConnectionString = $"Server={Server};Database={Database};Uid={User};Pwd={Password};Sslmode=none;";
+        private string ConnectionString = $"Server={Server};Database={Database};Uid={User};Pwd={Password};Sslmode=none;charset=utf8;";
 
         public DAL()
         {
