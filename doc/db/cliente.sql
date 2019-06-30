@@ -21,3 +21,5 @@ create table cliente(
 )
 
 select * from cliente;
+
+alter table CLIENTE convert to character set utf8 collate utf8_general_ci
