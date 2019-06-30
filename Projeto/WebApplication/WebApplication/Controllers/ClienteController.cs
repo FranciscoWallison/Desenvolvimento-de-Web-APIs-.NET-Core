@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Models;
 using WebApplication.Util;
@@ -13,6 +14,16 @@ namespace WebApplication.Controllers
     [ApiController]
     public class ClienteController : ControllerBase
     {
+        //Autenticacao AutenticacaoServocos;
+        /*IHttpContextAccessor contextAccessor;
+
+        public ClienteController(IHttpContextAccessor context)
+        {
+            //contextAccessor = context;
+            //AutenticacaoServocos = new Autenticacao(context);
+        }
+        */
+
         // GET api/values
         [HttpGet]
         [Route("listagem")]
@@ -81,9 +92,26 @@ namespace WebApplication.Controllers
         // DELETE api/values/5
         [HttpDelete]
         [Route("deletar/{id}")]
-        public void Deletar(int id)
+        public ReturnAllServices Deletar(int id)
         {
-             new ClienteModel().deletar(id);
+            ReturnAllServices returnAllServices = new ReturnAllServices();
+            
+            try
+            {
+                //AutenticacaoServocos.Autenticar();
+                new ClienteModel().deletar(id);
+                returnAllServices.Result = true;
+                returnAllServices.ErrorMessage = string.Empty;
+
+            }
+            catch (Exception e)
+            {
+                returnAllServices.Result = false;
+                returnAllServices.ErrorMessage = "Erro deletar cliente: " + e.Message;
+            }
+
+            return returnAllServices;
+
         }
     }
 }

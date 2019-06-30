@@ -1,0 +1,39 @@
+﻿@model ClienteModel
+
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>NOME</td>
+                    <td>EMAIL</td>
+                </tr>
+            </thead>
+            <tbody>
+                @if(ViewBag.ListaClientes != null){
+                    @foreach (var item in (List<ClienteModel>)ViewBag.ListaClientes)
+                    {
+                        <tr>
+                            <td>@item.Id.ToString()</td>
+                            <td>@item.Nome.ToString()</td>
+                            <td>@item.Email.ToString()</td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        
+        </table>
+        
+
+    </div>
+        <button class="btn btn-block btn-primary" onclick="registrar()">Registrar cliente</button>
+
+        <script>
+            function registrar() {
+                window.location.href = window.location.origin + "/Home/Registrar"
+            }
+        </script>
+</div>
