@@ -1,12 +1,14 @@
 ﻿@model ClienteModel
 
+<br />
 <div class="row">
     <div class="col-md-12">
-        <table class="table-bordered">
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <td>ID</td>
                     <td>NOME</td>
+                    <td>EMAIL</td>
                 </tr>
             </thead>
             <tbody>
@@ -16,6 +18,7 @@
                         <tr>
                             <td>@item.Id.ToString()</td>
                             <td>@item.Nome.ToString()</td>
+                            <td>@item.Email.ToString()</td>
                         </tr>
                     }
                 }
@@ -26,4 +29,11 @@
         
 
     </div>
+        <button class="btn btn-block btn-primary" onclick="registrar()">Registrar cliente</button>
+
+        <script>
+            function registrar() {
+                window.location.href = window.location.origin + "/Home/Registrar"
+            }
+        </script>
 </div>

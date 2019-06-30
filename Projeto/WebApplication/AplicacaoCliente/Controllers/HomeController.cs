@@ -18,9 +18,16 @@ namespace AplicacaoCliente.Controllers
             return View();
         }
 
-        public IActionResult About()
+        [HttpGet]
+        public IActionResult Registrar()
         {
+            return View();
+        }
 
+        [HttpPost]
+        public IActionResult Registrar(ClienteModel dados)
+        {
+            dados.Inserir();
             return View();
         }
 

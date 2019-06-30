@@ -28,7 +28,7 @@ namespace AplicacaoCliente.Util
         public static string RequestPOST(string metodo, string jsonData)
         {
         
-            var request = (HttpWebRequest)HttpWebRequest.Create(URI + metodo);
+            var request = (HttpWebRequest)HttpWebRequest.Create(URI + "/" + metodo);
             var data = Encoding.ASCII.GetBytes(jsonData);
             request.Method = "POST";
             request.ContentType = "application/json";

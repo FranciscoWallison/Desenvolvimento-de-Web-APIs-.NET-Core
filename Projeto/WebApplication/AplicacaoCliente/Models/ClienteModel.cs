@@ -35,5 +35,14 @@ namespace AplicacaoCliente.Models
 
             return retorno;
         }
+
+        public void Inserir()
+        {
+
+            string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(this);
+
+            string json = Util.WebAPI.RequestPOST("registrar", jsonData);
+
+        }
     }
 }
