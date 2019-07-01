@@ -16,7 +16,11 @@ namespace AplicacaoCliente.Util
 
         public static string RequestGET(string metodo, string parametro)
         {
-            var request = (HttpWebRequest)HttpWebRequest.Create(URI + "/" + metodo);
+
+            if (parametro != "")
+                parametro = "/" + parametro;
+
+            var request = (HttpWebRequest)HttpWebRequest.Create(URI + "/" + metodo + parametro);
 
             var response = (HttpWebResponse)request.GetResponse();
 
@@ -43,6 +47,44 @@ namespace AplicacaoCliente.Util
 
             var response = (HttpWebResponse)request.GetResponse();
             var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+            return responseString;
+        }
+
+        public static string RequestPut(string metodo, string jsonData)
+        {
+
+            var request = (HttpWebRequest)HttpWebRequest.Create(URI + "/" + metodo);
+            var data = Encoding.ASCII.GetBytes(jsonData);
+            request.Method = "PUT";
+            request.ContentType = "application/json";
+            request.Headers.Add("Token", TOKEN);
+            request.ContentLength = data.Length;
+
+
+            using (var stream = request.GetRequestStream())
+            {
+                stream.Write(data, 0, data.Length);
+            }
+
+            var response = (HttpWebResponse)request.GetResponse();
+            var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+            return responseString;
+        }
+
+        public static string RequestDELETE(string metodo, string parametro)
+        {
+
+            if (parametro != "")
+                parametro = "/" + parametro;
+
+            var request = (HttpWebRequest)HttpWebRequest.Create(URI + "/" + metodo + parametro);
+            request.Method = "DELETE";
+            request.ContentType = "application/json";
+            request.Headers.Add("Token", TOKEN);
+            var response = (HttpWebResponse)request.GetResponse();
+            var responseString = new System.IO.StreamReader(response.GetResponseStream()).ReadToEnd();
 
             return responseString;
         }
