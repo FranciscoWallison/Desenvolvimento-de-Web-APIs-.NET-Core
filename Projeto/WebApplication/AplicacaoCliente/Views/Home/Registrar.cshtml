@@ -1,79 +1,124 @@
 ﻿@model ClienteModel
 
+@{ 
+    var Id = string.Empty;
+    var Nome = string.Empty;
+    var Data_Cadastro = string.Empty;
+    var Cpf_Cnpj = string.Empty;
+    var Data_Nascimento = string.Empty;
+    var Tipo = string.Empty;
+    var Telefone = string.Empty;
+    var Email = string.Empty;
+    var Cep = string.Empty;
+    var Logradouro = string.Empty;
+    var Numero = string.Empty;
+    var Bairro = string.Empty;
+    var Complemento = string.Empty;
+    var Cidade = string.Empty;
+    var Uf = string.Empty;
+
+
+    try
+    {
+
+        Id = ViewBag.Registro.Id.ToString();
+
+        Nome = ViewBag.Registro.Nome.ToString();
+        Data_Cadastro = ViewBag.Registro.Data_Cadastro.ToString();
+        Cpf_Cnpj = ViewBag.Registro.Cpf_Cnpj.ToString();
+        Data_Nascimento = ViewBag.Registro.Data_Nascimento.ToString();
+        Tipo = ViewBag.Registro.Tipo.ToString();
+        Telefone = ViewBag.Registro.Telefone.ToString();
+        Email = ViewBag.Registro.Email.ToString();
+        Cep = ViewBag.Registro.Cep.ToString();
+        Logradouro = ViewBag.Registro.Logradouro.ToString();
+        Numero = ViewBag.Registro.Numero.ToString();
+        Bairro = ViewBag.Registro.Bairro.ToString();
+        Cidade = ViewBag.Registro.Cidade.ToString();
+        Uf = ViewBag.Registro.Uf.ToString();
+        Complemento = ViewBag.Registro.Complemento.ToString();
+
+    }
+    catch (Exception e) {
+
+    }
+}
+
 <h2>Registrar Cliente</h2>
 
 
 <form asp-controller="Home" asp-action="Registrar">
-
+    <input asp-for="Id" class="form-control hidden" value="@Id" />
     <div class="row">
+
         <div class="col-lg-3">
             <label>Nome</label>
-            <input asp-for="Nome" class="form-control" />
+            <input asp-for="Nome" class="form-control" value="@Nome" />
         </div>
 
         <div class="col-lg-3">
             <label>Data Cadastro</label>
-            <input asp-for="Data_Cadastro" class="form-control" />
+            <input asp-for="Data_Cadastro" class="form-control" value="@Data_Cadastro" />
         </div>
 
         <div class="col-lg-3">
             <label>Cpf ou Cnpj</label>
-            <input asp-for="Cpf_Cnpj" class="form-control" />
+            <input asp-for="Cpf_Cnpj" class="form-control" value="@Cpf_Cnpj" />
         </div>
 
         <div class="col-lg-3">
             <label>Data de Nascimento</label>
-            <input asp-for="Data_Nascimento" class="form-control" />
+            <input asp-for="Data_Nascimento" class="form-control" value="@Data_Nascimento" />
         </div>
 
         <div class="col-lg-3">
             <label>Tipo</label>
-            <input asp-for="Tipo" class="form-control" />
+            <input asp-for="Tipo" class="form-control" value="@Tipo" />
         </div>
 
         <div class="col-lg-3">
             <label>Telefone</label>
-            <input asp-for="Telefone" class="form-control" />
+            <input asp-for="Telefone" class="form-control" value="@Telefone" />
         </div>
 
         <div class="col-lg-3">
             <label>Email</label>
-            <input asp-for="Email" class="form-control" />
+            <input asp-for="Email" class="form-control" value="@Email" />
         </div>
 
         <div class="col-lg-3">
             <label>Cep</label>
-            <input asp-for="Cep" class="form-control" />
+            <input asp-for="Cep" class="form-control" value="@Cep" />
         </div>
 
         <div class="col-lg-3">
             <label>Logradouro</label>
-            <input asp-for="Logradouro" class="form-control" />
+            <input asp-for="Logradouro" class="form-control" value="@Logradouro" />
         </div>
 
         <div class="col-lg-3">
             <label>Numero</label>
-            <input asp-for="Numero" class="form-control" />
+            <input asp-for="Numero" class="form-control" value="@Numero" />
         </div>
 
         <div class="col-lg-3">
             <label>Bairro</label>
-            <input asp-for="Bairro" class="form-control" />
+            <input asp-for="Bairro" class="form-control" value="@Bairro" />
         </div>
 
         <div class="col-lg-3">
             <label>Complemento</label>
-            <input asp-for="Complemento" class="form-control" />
+            <input asp-for="Complemento" class="form-control" value="@Complemento" />
         </div>
 
         <div class="col-lg-3">
             <label>Cidade</label>
-            <input asp-for="Cidade" class="form-control" />
+            <input asp-for="Cidade" class="form-control" value="@Cidade" />
         </div>
 
         <div class="col-lg-3">
             <label>Uf</label>
-            <input asp-for="Uf" class="form-control" />
+            <input asp-for="Uf" class="form-control" value="@Uf" />
         </div>
 
     </div>

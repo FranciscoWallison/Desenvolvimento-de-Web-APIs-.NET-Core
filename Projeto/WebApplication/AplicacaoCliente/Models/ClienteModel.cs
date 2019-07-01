@@ -41,7 +41,30 @@ namespace AplicacaoCliente.Models
 
             string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(this);
 
-            string json = Util.WebAPI.RequestPOST("registrar", jsonData);
+            if (Id == 0)
+            {
+                string json = Util.WebAPI.RequestPOST("registrar", jsonData);
+            }
+            else {
+                string json = Util.WebAPI.RequestPut("atualizar/" + Id, jsonData);
+            }
+
+        }
+
+        public void Deletar(int id)
+        {            
+            string json = Util.WebAPI.RequestDELETE("Deletar/", id.ToString());
+
+        }
+
+        
+
+        public ClienteModel Carregar(int? id) {
+            ClienteModel retorno = new ClienteModel();
+            string json = Util.WebAPI.RequestGET("value/", id.ToString());
+
+            retorno = Newtonsoft.Json.JsonConvert.DeserializeObject<ClienteModel>(json);
+            return retorno;
 
         }
     }

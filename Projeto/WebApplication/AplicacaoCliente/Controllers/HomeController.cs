@@ -19,8 +19,11 @@ namespace AplicacaoCliente.Controllers
         }
 
         [HttpGet]
-        public IActionResult Registrar()
+        public IActionResult Registrar(int? id)
         {
+            if(id != null)
+                ViewBag.Registro = new ClienteModel().Carregar(id);
+
             return View();
         }
 
@@ -28,6 +31,20 @@ namespace AplicacaoCliente.Controllers
         public IActionResult Registrar(ClienteModel dados)
         {
             dados.Inserir();
+            return View();
+        }
+
+        public IActionResult Excluir(int id)
+        {
+            ViewData["ClienteID"] = id.ToString();
+
+            return View();            
+        }
+
+        public IActionResult ExcluirCliente(int id)
+        {
+
+            new ClienteModel().Deletar(id);       
             return View();
         }
 

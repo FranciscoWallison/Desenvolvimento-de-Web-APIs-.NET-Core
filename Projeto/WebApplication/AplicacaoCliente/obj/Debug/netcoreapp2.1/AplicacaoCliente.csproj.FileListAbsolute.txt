@@ -28,3 +28,5 @@ C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-My
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\WebApplication\AplicacaoCliente\obj\Debug\netcoreapp2.1\AplicacaoCliente.pdb
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\WebApplication\AplicacaoCliente\obj\Debug\netcoreapp2.1\AplicacaoCliente.csproj.CopyComplete
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\WebApplication\AplicacaoCliente\obj\Debug\netcoreapp2.1\Razor\Views\Home\Registrar.g.cshtml.cs
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\WebApplication\AplicacaoCliente\obj\Debug\netcoreapp2.1\Razor\Views\Home\Excluir.g.cshtml.cs
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core-com-MySQL\Projeto\WebApplication\AplicacaoCliente\obj\Debug\netcoreapp2.1\Razor\Views\Home\ExcluirCliente.g.cshtml.cs

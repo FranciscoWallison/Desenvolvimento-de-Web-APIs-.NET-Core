@@ -6,6 +6,8 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
+                    <td>#</td>
+                    <td>#</td>
                     <td>ID</td>
                     <td>NOME</td>
                     <td>EMAIL</td>
@@ -15,11 +17,23 @@
                 @if(ViewBag.ListaClientes != null){
                     @foreach (var item in (List<ClienteModel>)ViewBag.ListaClientes)
                     {
-                        <tr>
-                            <td>@item.Id.ToString()</td>
-                            <td>@item.Nome.ToString()</td>
-                            <td>@item.Email.ToString()</td>
-                        </tr>
+                <tr>
+                    <td style="width:80px;">
+                        <button class="btn btn-default" onclick="registrar(@item.Id.ToString())">
+                            Editar
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </td>
+                    <td style="width:80px;">
+                        <button class="btn btn-danger" onclick="excluir(@item.Id.ToString())">
+                            Excluir
+                            <i class="glyphicon glyphicon-trash"></i>
+                        </button>
+                    </td>
+                    <td>@item.Id.ToString()</td>
+                    <td>@item.Nome.ToString()</td>
+                    <td>@item.Email.ToString()</td>
+                </tr>
                     }
                 }
 
@@ -32,8 +46,18 @@
         <button class="btn btn-block btn-primary" onclick="registrar()">Registrar cliente</button>
 
         <script>
-            function registrar() {
-                window.location.href = window.location.origin + "/Home/Registrar"
+            function registrar(id) {
+                if (id == null) {
+                    id = ""
+                } else {
+                    id = "/" + id
+                }
+
+                window.location.href = window.location.origin + "/Home/Registrar" + id
+            }
+
+            function excluir(id) {
+                window.location.href = window.location.origin + "/Home/Excluir/" + id
             }
         </script>
 </div>
