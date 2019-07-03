@@ -1,4 +1,5 @@
 using System;
+using YouLearn.Domain.Entities;
 
 namespace YouLearn.Domain.Interfaces.Repositories
 {

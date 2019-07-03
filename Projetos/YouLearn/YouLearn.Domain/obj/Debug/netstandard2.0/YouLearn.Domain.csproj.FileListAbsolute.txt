@@ -1,0 +1,4 @@
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.csprojAssemblyReference.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.csproj.CoreCompileInputs.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.AssemblyInfoInputs.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.AssemblyInfo.cs
