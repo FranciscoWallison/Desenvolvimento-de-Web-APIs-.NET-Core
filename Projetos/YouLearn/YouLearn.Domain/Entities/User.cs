@@ -2,9 +2,9 @@ using System;
 using YouLearn.Domain.ObjectValue;
 using YouLearn.Domain.Entities.Base;
 
-namespace YouLearn.Domain.Entities : EntityBase
+namespace YouLearn.Domain.Entities
 {
-    public class User
+    public class User : EntityBase
     {       
         public Name Name { get; set; }
         public Email Email { get; set; }

@@ -1,9 +1,9 @@
 using System;
 using YouLearn.Domain.Entities.Base;
 
-namespace YouLearn.Domain.Entities : EntityBase
+namespace YouLearn.Domain.Entities
 {
-    public class Channel
+    public class Channel : EntityBase
     {
         
         public User User { get; set; }
