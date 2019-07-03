@@ -8,7 +8,7 @@ namespace YouLearn.Domain.Entities : EntityBase
         
         public User User { get; set; }
         public string Name { get; set; }
-        public string UrlLogo { get; set; }        
-
+        public string UrlLogo { get; set; }
+        
     }
 }
