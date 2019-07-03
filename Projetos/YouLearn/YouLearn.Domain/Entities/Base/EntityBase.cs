@@ -6,7 +6,7 @@ namespace YouLearn.Domain.Entities.Base
     {
         public EntityBase()
         {
-            Id = Guid.NewBase();
+            Id = Guid.NewGuid();
         }
         
         public virtual Guid Id { get; set; }
