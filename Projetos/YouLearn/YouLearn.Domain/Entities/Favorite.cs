@@ -1,10 +1,10 @@
 using System;
+using YouLearn.Domain.Entities.Base;
 
-namespace YouLearn.Domain.Entities
+namespace YouLearn.Domain.Entities : EntityBase
 {
     public class Favorite
-    {
-        public Guid Id { get; set; }
+    {        
         public Video Video { get; set; }
         public User User { get; set; }
     }

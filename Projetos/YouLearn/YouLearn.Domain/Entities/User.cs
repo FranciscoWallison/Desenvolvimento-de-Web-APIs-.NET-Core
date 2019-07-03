@@ -1,11 +1,11 @@
 using System;
 using YouLearn.Domain.ObjectValue;
+using YouLearn.Domain.Entities.Base;
 
-namespace YouLearn.Domain.Entities
+namespace YouLearn.Domain.Entities : EntityBase
 {
     public class User
-    {
-        public Guid Id { get; set; }
+    {       
         public Name Name { get; set; }
         public Email Email { get; set; }
         public string Password { get; set; }

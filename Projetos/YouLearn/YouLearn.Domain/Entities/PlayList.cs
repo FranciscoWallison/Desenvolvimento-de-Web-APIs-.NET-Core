@@ -1,11 +1,11 @@
 using System;
 using YouLearn.Domain.Enums;
+using YouLearn.Domain.Entities.Base;
 
-namespace YouLearn.Domain.Entities
+namespace YouLearn.Domain.Entities : EntityBase
 {
     public class PlayList
-    {
-        public Guid Id { get; set; }
+    {       
         public User User { get; set; }
         public EnumStatus Status { get; set; }
     }
