@@ -1,20 +1,21 @@
-using System;
 using prmToolkit.NotificationPattern;
 using prmToolkit.NotificationPattern.Extensions;
+using System;
 using YouLearn.Domain.Arguments.User;
-using YouLearn.Domain.Interfaces.Services;
 using YouLearn.Domain.Entities;
+using YouLearn.Domain.Interfaces.Repositories;
+using YouLearn.Domain.Interfaces.Services;
 using YouLearn.Domain.Resources;
 using YouLearn.Domain.ObjectValue;
-
 
 namespace YouLearn.Domain.Services
 {
     public class ServiceUser : Notifiable, IServiceUser
     {
-        //Dependencies
+        //Dependencias
         private readonly IRepositoryUser _repositoryUser;
-        //Construct
+
+        //Construtor
         public ServiceUser(IRepositoryUser repositoryUser)
         {
             _repositoryUser = repositoryUser;
@@ -59,7 +60,7 @@ namespace YouLearn.Domain.Services
             var email = new Email(request.Email);
             var user = new User(email, request.Password);
 
-            AddNotification(user);
+            AddNotifications(user);
 
             if(this.IsInvalid()) return null;
 

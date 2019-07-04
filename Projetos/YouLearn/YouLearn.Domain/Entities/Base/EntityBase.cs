@@ -1,5 +1,5 @@
-using System;
 using prmToolkit.NotificationPattern;
+using System;
 
 namespace YouLearn.Domain.Entities.Base
 {
@@ -9,7 +9,7 @@ namespace YouLearn.Domain.Entities.Base
         {
             Id = Guid.NewGuid();
         }
-        
+
         public virtual Guid Id { get; set; }
     }
 }

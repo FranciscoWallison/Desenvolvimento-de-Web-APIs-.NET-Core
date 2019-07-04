@@ -9,6 +9,11 @@ namespace YouLearn.Domain.Entities
     public class User : EntityBase
     {
 
+        protected User()
+        {
+
+        }
+
         public User(Email email, string password)
         {
             Email = email;

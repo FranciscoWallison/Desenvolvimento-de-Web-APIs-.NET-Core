@@ -16,8 +16,8 @@ namespace ConsoleApp
                 Password = "12345"
             };
 
-            var response = new ServiceUser().AddUser(request);
-Console.WriteLine("Hello World!"+  response);
+          //  var response = new ServiceUser().AddUser(request);
+Console.WriteLine("Hello World!");
             Console.ReadKey();
         }
     }
