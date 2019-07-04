@@ -1,50 +1,53 @@
 using System;
+using prmToolkit.NotificationPattern;
+using prmToolkit.NotificationPattern.Extensions;
 using YouLearn.Domain.Arguments.User;
 using YouLearn.Domain.Interfaces.Services;
 using YouLearn.Domain.Entities;
+using YouLearn.Domain.Resources;
+using YouLearn.Domain.ObjectValue;
+
 
 namespace YouLearn.Domain.Services
 {
-    public class ServiceUser : IServiceUser
+    public class ServiceUser : Notifiable, IServiceUser
     {
 
         public AddUserResponse AddUser(AddUserRequest request)
         {
             if (request == null)
             {
-                throw new Exception("Objeto AddUserRequest é obrigatório."); 
+                AddNotification("AddUserRequest",
+                 MSG.OBJETO_X0_E_OBRIGATORIO.ToFormat("AddUserRequest"));
+                
+                return null;
             }
+
+            //Cria entidade
+            Name name = new Name(request.FirstName, request.LastName); 
+            Email email = new Email(request.Email);
 
             User user = new User();
-            user.Name.FirstName = "Wallison";
-            user.Name.LastName = "Chico";
-            user.Email.Address = "franciscowallison@gmail.com";
-            user.Password = "teste";
+            user.Name = name;
+            user.Email = email;
+            user.Password = request.Password;
 
-            if(user.Name.FirstName.Length < 3 || user.Name.FirstName.Length > 50)
-            {
-                throw new Exception("Primeiro nome é obrigatório e deve conter entre 3 à 50 caracteres");
-            }
+            AddNotifications(name, email, user);
 
-            if(user.Name.LastName.Length < 3 || user.Name.LastName.Length > 50)
-            {
-                throw new Exception("Primeiro nome é obrigatório e deve conter entre 3 à 50 caracteres");
-            }
-
-            if(user.Email.Address.IndexOf('@')  < 1 )
-            {
-                throw new Exception("Email invalido");
-            }
-
-            if(user.Password.Length >= 3 )
+            if(user.Password.Length <= 3 )
             {
                 throw new Exception("Senha deve ter no minimo 3 caracteres");
             }
 
             //Persiste no banco de dados
-            AddUserResponse response = new RepositoryUser().ToSave(user);
+            //AddUserResponse response = new RepositoryUser().ToSave(user);
 
-            return response;
+            //return response;
+
+            if(IsInvalid())
+                return null;
+
+            return new AddUserResponse(Guid.NewGuid());
         }
 
         public AuthenticateUserResponse AuthenticateUser(AuthenticateUserRequest request)
