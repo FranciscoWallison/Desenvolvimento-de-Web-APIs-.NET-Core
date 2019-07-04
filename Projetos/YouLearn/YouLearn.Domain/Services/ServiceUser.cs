@@ -12,6 +12,13 @@ namespace YouLearn.Domain.Services
 {
     public class ServiceUser : Notifiable, IServiceUser
     {
+        //Dependencies
+        private readonly IRepositoryUser _repositoryUser;
+        //Construct
+        public ServiceUser(IRepositoryUser repositoryUser)
+        {
+            _repositoryUser = repositoryUser;
+        }
 
         public AddUserResponse AddUser(AddUserRequest request)
         {
@@ -23,36 +30,52 @@ namespace YouLearn.Domain.Services
                 return null;
             }
 
-            //Cria entidade
+            //Create values objects
             Name name = new Name(request.FirstName, request.LastName); 
             Email email = new Email(request.Email);
 
-            User user = new User();
-            user.Name = name;
-            user.Email = email;
-            user.Password = request.Password;
+            //Create entity
+            User user = new User(name , email, request.Password);
 
-            AddNotifications(name, email, user);
+            AddNotifications(user);
 
-            if(user.Password.Length <= 3 )
-            {
-                throw new Exception("Senha deve ter no minimo 3 caracteres");
-            }
+            if(this.IsInvalid()) return null;
 
-            //Persiste no banco de dados
-            //AddUserResponse response = new RepositoryUser().ToSave(user);
+             //There is no database
+            _repositoryUser.ToSave(user);
 
-            //return response;
-
-            if(IsInvalid())
-                return null;
-
-            return new AddUserResponse(Guid.NewGuid());
+            return new AddUserResponse(user.Id);
         }
 
         public AuthenticateUserResponse AuthenticateUser(AuthenticateUserRequest request)
         {
-            throw new System.NotImplementedException();
+            if (request == null)
+            {
+                AddNotification("AuthenticateUserRequest", 
+                    MSG.OBJETO_X0_E_OBRIGATORIO.ToFormat("AuthenticateUserRequest"));
+                return null;
+            }
+
+            var email = new Email(request.Email);
+            var user = new User(email, request.Password);
+
+            AddNotification(user);
+
+            if(this.IsInvalid()) return null;
+
+            user = _repositoryUser.Get(user.Email.Address, user.Password);
+
+            if(user == null){
+                AddNotification("User", MSG.DADOS_NAO_ENCONTRADOS);
+                return null;
+            }
+
+            var response = new AuthenticateUserResponse(){
+                Id = user.Id,
+                FirstName = user.Name.FirstName
+            };
+
+            return response;
         }
         
     }
