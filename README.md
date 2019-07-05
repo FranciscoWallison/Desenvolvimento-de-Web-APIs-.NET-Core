@@ -1,7 +1,7 @@
 # Desenvolvimento de Web APIs .NET Core
 
 
-## 1 - Instalação dos softwares e ferramentas
+#### 1 - Instalação dos softwares e ferramentas
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [PostMan](https://www.getpostman.com/downloads/) 
 - [Dotnet CLI](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
