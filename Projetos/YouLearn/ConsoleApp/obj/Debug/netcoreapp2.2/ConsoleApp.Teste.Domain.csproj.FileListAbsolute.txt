@@ -12,3 +12,7 @@ c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLe
 c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.csproj.CopyComplete
 c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.dll
 c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.pdb
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\bin\Debug\netcoreapp2.2\YouLearn.Infra.dll
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\bin\Debug\netcoreapp2.2\YouLearn.Shared.dll
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\bin\Debug\netcoreapp2.2\YouLearn.Infra.pdb
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp\bin\Debug\netcoreapp2.2\YouLearn.Shared.pdb

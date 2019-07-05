@@ -2,6 +2,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YouLearn.Domain\YouLearn.Domain.csproj" />
+    <ProjectReference Include="..\YouLearn.Infra\YouLearn.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
   </ItemGroup>
 
   <PropertyGroup>

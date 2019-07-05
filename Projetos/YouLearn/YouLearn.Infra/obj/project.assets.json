@@ -5,7 +5,7 @@
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/Microsoft.CSharp.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.CSharp.dll": {}
@@ -51,7 +51,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.2.4"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -3270,6 +3270,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Microsoft.EntityFrameworkCore.Design >= 2.2.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.4",
       "Microsoft.EntityFrameworkCore.Tools >= 2.2.4",
       "NETStandard.Library >= 2.0.3",
@@ -3324,6 +3325,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[2.2.4, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[2.2.4, )"
