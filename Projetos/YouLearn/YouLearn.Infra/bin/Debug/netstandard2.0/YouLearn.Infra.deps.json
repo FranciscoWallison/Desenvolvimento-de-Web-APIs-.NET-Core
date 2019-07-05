@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "da9207b40703cc840924d98a1639b76439b2f9c8"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "YouLearn.Infra/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "YouLearn.Domain": "1.0.0"
+        },
+        "runtime": {
+          "YouLearn.Infra.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "prmToolkit.NotificationPattern/1.1.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/prmToolkit.NotificationPattern.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.0/en-US/prmToolkit.NotificationPattern.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "YouLearn.Domain/1.0.0": {
+        "dependencies": {
+          "prmToolkit.NotificationPattern": "1.1.2"
+        },
+        "runtime": {
+          "YouLearn.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YouLearn.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "prmToolkit.NotificationPattern/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-21iUzm7KXAs/LbA4nl48npF02mxf0dN1bNXemmXj0K7qcuUO9bO7ldz3JmLQAX4Ahw2f+vKKkdA6xk/aY6g30g==",
+      "path": "prmtoolkit.notificationpattern/1.1.2",
+      "hashPath": "prmtoolkit.notificationpattern.1.1.2.nupkg.sha512"
+    },
+    "YouLearn.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

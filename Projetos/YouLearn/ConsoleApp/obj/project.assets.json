@@ -741,9 +741,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp\\ConsoleApp.csproj",
-      "projectName": "ConsoleApp",
-      "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp\\ConsoleApp.Teste.Domain.csproj",
+      "projectName": "ConsoleApp.Teste.Domain",
+      "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp\\ConsoleApp.Teste.Domain.csproj",
       "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
       "outputPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
