@@ -1,0 +1,11 @@
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.csprojAssemblyReference.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.csproj.CoreCompileInputs.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.AssemblyInfoInputs.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.AssemblyInfo.cs
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.Resources.MSG.resources
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.csproj.GenerateResource.cache
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\bin\Debug\netstandard2.0\YouLearn.Domain.deps.json
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\bin\Debug\netstandard2.0\YouLearn.Domain.dll
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\bin\Debug\netstandard2.0\YouLearn.Domain.pdb
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.dll
+C:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netstandard2.0\YouLearn.Domain.pdb
