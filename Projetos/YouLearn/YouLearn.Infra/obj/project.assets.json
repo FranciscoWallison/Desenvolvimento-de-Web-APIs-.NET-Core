@@ -3285,11 +3285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj",
+      "projectUniqueName": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj",
       "projectName": "YouLearn.Infra",
-      "projectPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj",
+      "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj",
       "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
-      "outputPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\obj\\",
+      "outputPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3310,8 +3310,8 @@
             "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
               "projectPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
             },
-            "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
-              "projectPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj"
+            "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
+              "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj"
             }
           }
         }

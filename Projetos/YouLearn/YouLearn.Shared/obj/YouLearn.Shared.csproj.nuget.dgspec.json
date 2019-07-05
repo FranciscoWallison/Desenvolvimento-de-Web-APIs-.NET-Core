@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {}
+    "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
+    "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
+        "projectUniqueName": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
         "projectName": "YouLearn.Shared",
-        "projectPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
+        "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
         "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
-        "outputPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\obj\\",
+        "outputPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

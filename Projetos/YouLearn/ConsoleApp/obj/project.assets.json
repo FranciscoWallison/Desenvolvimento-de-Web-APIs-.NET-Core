@@ -5262,8 +5262,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
-              "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
+            "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+              "projectPath": "C:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
             },
             "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj": {
               "projectPath": "c:\\Fontes - Wallison\\estudo\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj"
