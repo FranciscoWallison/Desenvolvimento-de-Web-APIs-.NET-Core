@@ -5,8 +5,9 @@ using YouLearn.Domain.Entities.Base;
 namespace YouLearn.Domain.Entities
 {
     public class PlayList : EntityBase
-    {       
-        public User User { get; set; }
-        public EnumStatus Status { get; set; }
+    {   
+        public string Name { get; private set; }
+        public User User { get; private set; }
+        public EnumStatus Status { get; private set; }
     }
 }

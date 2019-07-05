@@ -10,3 +10,5 @@ c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLe
 c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.csproj.CopyComplete
 c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.dll
 c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.pdb
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Shared.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Shared.pdb
