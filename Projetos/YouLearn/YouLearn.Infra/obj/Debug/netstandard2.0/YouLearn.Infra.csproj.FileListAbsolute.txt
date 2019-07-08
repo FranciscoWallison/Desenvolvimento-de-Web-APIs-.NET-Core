@@ -1,0 +1,14 @@
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.csprojAssemblyReference.cache
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.csproj.CoreCompileInputs.cache
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.AssemblyInfoInputs.cache
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.AssemblyInfo.cs
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Infra.deps.json
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Infra.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Infra.pdb
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Domain.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Domain.pdb
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.csproj.CopyComplete
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\obj\Debug\netstandard2.0\YouLearn.Infra.pdb
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Shared.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Infra\bin\Debug\netstandard2.0\YouLearn.Shared.pdb
