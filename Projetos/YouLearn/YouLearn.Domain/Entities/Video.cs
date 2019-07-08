@@ -13,6 +13,7 @@ namespace YouLearn.Domain.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public string Tags { get; set; }
+        public int OrdemNaPlayList { get; private set; }
         public int OrderPlayList { get; set; }
         public string IdVideoYoutube { get; set; }        
     }

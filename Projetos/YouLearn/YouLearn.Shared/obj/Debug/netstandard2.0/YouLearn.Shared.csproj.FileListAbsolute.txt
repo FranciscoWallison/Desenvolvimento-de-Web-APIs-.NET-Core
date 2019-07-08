@@ -1,0 +1,9 @@
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\bin\Debug\netstandard2.0\YouLearn.Shared.deps.json
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\bin\Debug\netstandard2.0\YouLearn.Shared.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\bin\Debug\netstandard2.0\YouLearn.Shared.pdb
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netstandard2.0\YouLearn.Shared.csprojAssemblyReference.cache
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netstandard2.0\YouLearn.Shared.csproj.CoreCompileInputs.cache
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netstandard2.0\YouLearn.Shared.AssemblyInfoInputs.cache
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netstandard2.0\YouLearn.Shared.AssemblyInfo.cs
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netstandard2.0\YouLearn.Shared.dll
+c:\Fontes - Wallison\estudo\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netstandard2.0\YouLearn.Shared.pdb
