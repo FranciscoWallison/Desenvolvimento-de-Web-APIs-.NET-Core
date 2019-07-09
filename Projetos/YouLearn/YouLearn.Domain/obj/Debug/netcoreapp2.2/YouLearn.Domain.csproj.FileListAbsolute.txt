@@ -1,0 +1,11 @@
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.csproj.CoreCompileInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.AssemblyInfoInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.AssemblyInfo.cs
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.csprojAssemblyReference.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.deps.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.Resources.MSG.resources
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.csproj.GenerateResource.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.pdb

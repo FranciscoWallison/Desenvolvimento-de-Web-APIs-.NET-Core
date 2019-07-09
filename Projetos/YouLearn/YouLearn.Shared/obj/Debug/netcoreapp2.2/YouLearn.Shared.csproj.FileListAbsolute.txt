@@ -1,0 +1,8 @@
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\bin\Debug\netcoreapp2.2\YouLearn.Shared.deps.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\bin\Debug\netcoreapp2.2\YouLearn.Shared.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\bin\Debug\netcoreapp2.2\YouLearn.Shared.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.csproj.CoreCompileInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.AssemblyInfoInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.AssemblyInfo.cs
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.pdb
