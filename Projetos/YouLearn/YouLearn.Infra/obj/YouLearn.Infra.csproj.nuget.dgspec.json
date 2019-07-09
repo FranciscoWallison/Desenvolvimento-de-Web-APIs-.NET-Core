@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
+        "projectName": "YouLearn.Domain",
+        "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
+        "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wallison.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.85.0.117:8087/nuget": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "prmToolkit.NotificationPattern": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj",
+        "projectName": "YouLearn.Infra",
+        "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj",
+        "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wallison.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.85.0.117:8087/nuget": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+                "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
+              },
+              "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
+                "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
+        "projectName": "YouLearn.Shared",
+        "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
+        "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wallison.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.85.0.117:8087/nuget": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

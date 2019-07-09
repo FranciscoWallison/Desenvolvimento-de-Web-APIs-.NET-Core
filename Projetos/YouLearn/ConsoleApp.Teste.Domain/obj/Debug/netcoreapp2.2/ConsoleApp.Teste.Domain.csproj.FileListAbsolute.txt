@@ -1,0 +1,14 @@
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.deps.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.runtimeconfig.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.runtimeconfig.dev.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.csprojAssemblyReference.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.csproj.CoreCompileInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.AssemblyInfoInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.AssemblyInfo.cs
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.csproj.CopyComplete
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.pdb

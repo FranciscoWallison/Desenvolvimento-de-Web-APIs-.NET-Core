@@ -1,0 +1,16 @@
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.csproj.CoreCompileInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.AssemblyInfoInputs.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.AssemblyInfo.cs
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Infra.deps.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Infra.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.csprojAssemblyReference.cache
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Domain.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Domain.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.csproj.CopyComplete
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Infra.runtimeconfig.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Infra.runtimeconfig.dev.json
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Infra.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Shared.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\bin\Debug\netcoreapp2.2\YouLearn.Shared.pdb
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.dll
+C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Infra\obj\Debug\netcoreapp2.2\YouLearn.Infra.pdb
