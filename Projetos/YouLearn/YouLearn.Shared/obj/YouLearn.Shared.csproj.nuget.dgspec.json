@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
+    "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
         "projectName": "YouLearn.Shared",
-        "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
-        "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Shared\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\YouLearn.Shared.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wallison.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.85.0.117:8087/nuget": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
