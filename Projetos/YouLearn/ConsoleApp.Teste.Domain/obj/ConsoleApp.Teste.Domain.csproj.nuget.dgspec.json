@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj": {
+    "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj",
         "projectName": "ConsoleApp.Teste.Domain",
-        "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj",
-        "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\ConsoleApp.Teste.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp.Teste.Domain\\ConsoleApp.Teste.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\ConsoleApp.Teste.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wallison.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +25,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.85.0.117:8087/nuget": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
-                "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
+              "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
               }
             }
           }
@@ -61,20 +60,20 @@
         }
       }
     },
-    "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+    "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
         "projectName": "YouLearn.Domain",
-        "projectPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
-        "packagesPath": "C:\\Users\\wallison.nascimento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wallison.nascimento\\source\\repos\\YouLearn\\YouLearn.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wallison.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +81,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.85.0.117:8087/nuget": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
