@@ -12,7 +12,6 @@ C:\Users\wallison.nascimento\source\repos\YouLearn\YouLearn.Domain\obj\Debug\net
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.deps.json
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.dll
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\bin\Debug\netcoreapp2.2\YouLearn.Domain.pdb
-C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.csprojAssemblyReference.cache
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.Resources.MSG.resources
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.csproj.GenerateResource.cache
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Domain\obj\Debug\netcoreapp2.2\YouLearn.Domain.csproj.CoreCompileInputs.cache
