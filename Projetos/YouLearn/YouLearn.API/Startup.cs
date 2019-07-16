@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Swashbuckle.AspNetCore.Swagger;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,11 @@ namespace YouLearn.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //Aplicando documentação com swagger
+            services.AddSwaggerGen(x => {
+                x.SwaggerDoc("v1", new Info { Title = "YouLearn", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -28,10 +34,12 @@ namespace YouLearn.API
 
             app.UseMvc();
 
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
+
+            // Swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "StolenCar - V1");
+            });
         }
     }
 }
