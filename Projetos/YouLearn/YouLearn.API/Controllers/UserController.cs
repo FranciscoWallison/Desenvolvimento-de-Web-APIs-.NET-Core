@@ -25,14 +25,15 @@ namespace YouLearn.Api.Controllers
             _serviceUser = serviceUser;
         }
 
+
         [AllowAnonymous]
         [HttpPost]
         [Route("api/v1/Usuario/Adicionar")]
-        public async Task<IActionResult> Adicionar([FromBody]AuthenticateUserRequest request)
+        public async Task<IActionResult> Adicionar([FromBody]AddUserRequest request)
         {
             try
             {
-                var response = _serviceUser.AuthenticateUser(request);
+                var response = _serviceUser.AddUser(request);
                 return await ResponseAsync(response, _serviceUser);
             }
             catch (Exception ex)
