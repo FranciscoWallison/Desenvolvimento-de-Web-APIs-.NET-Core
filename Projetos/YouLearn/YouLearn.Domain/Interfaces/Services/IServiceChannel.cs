@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using YouLearn.Domain.Arguments.Base;
 using YouLearn.Domain.Arguments.Channel;
@@ -13,5 +13,5 @@ namespace YouLearn.Domain.Interfaces.Services
         ChannelResponse AddChannel(AddChannelRequest request, Guid idUser);
         Response DeleteChannel(Guid idChannel);
     }
-    
+
 }
