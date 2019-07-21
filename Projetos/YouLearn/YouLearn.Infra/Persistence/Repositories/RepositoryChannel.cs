@@ -7,7 +7,7 @@ using YouLearn.Infra.Persistence.EF;
 
 namespace YouLearn.Infra.Persistence.Repositories
 {
-    class RepositoryChannel
+    public class RepositoryChannel : IRepositoryChannel
     {
         private readonly YouLearnContext _context;
 

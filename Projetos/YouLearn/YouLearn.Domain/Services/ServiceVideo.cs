@@ -37,7 +37,7 @@ namespace YouLearn.Domain.Services
             User user = _repositoryUser.Get(idUser);
             if (user == null)
             {
-                AddNotification("Usuario", MSG.X0_NAO_INFORMADO.ToFormat("Usuário"));
+                AddNotification("User", MSG.X0_NAO_INFORMADO.ToFormat("Usuário"));
                 return null;
             }
 

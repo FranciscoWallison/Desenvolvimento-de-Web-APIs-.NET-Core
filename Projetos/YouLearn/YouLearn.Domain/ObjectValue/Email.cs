@@ -7,6 +7,7 @@ namespace YouLearn.Domain.ObjectValue
 {
     public class Email : Notifiable
     {
+        protected Email() { }
         public Email(string address)
         {
             Address = address;

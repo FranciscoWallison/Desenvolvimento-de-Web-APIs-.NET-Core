@@ -8,7 +8,7 @@ namespace YouLearn.Domain.Interfaces.Services
 {
     public interface IServicePlayList : IServiceBase
     {
-        IEnumerable<PlayListResponse> List(Guid idUsuario);
+        IEnumerable<PlayListResponse> List(Guid idUser);
         PlayListResponse AddPlayList(AddPlayListRequest request, Guid idUser);
         Response DeletePlayList(Guid idPlayList);
     }

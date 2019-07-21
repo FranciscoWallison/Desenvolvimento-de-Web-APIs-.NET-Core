@@ -16,11 +16,11 @@ using YouLearn.Infra.Transactions;
 
 namespace YouLearn.Api.Controllers
 {
-    public class UsuarioController : Base.ControllerBase
+    public class UserController : Base.ControllerBase
     {
         private readonly IServiceUser _serviceUser;
 
-        public UsuarioController(IUnitOfWork unitOfWork, IServiceUser serviceUser) : base(unitOfWork)
+        public UserController(IUnitOfWork unitOfWork, IServiceUser serviceUser) : base(unitOfWork)
         {
             _serviceUser = serviceUser;
         }
@@ -28,8 +28,8 @@ namespace YouLearn.Api.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        [Route("api/v1/Usuario/Adicionar")]
-        public async Task<IActionResult> Adicionar([FromBody]AddUserRequest request)
+        [Route("api/v1/User/Add")]
+        public async Task<IActionResult> Add([FromBody]AddUserRequest request)
         {
             try
             {
@@ -44,8 +44,8 @@ namespace YouLearn.Api.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        [Route("api/v1/Usuario/Autenticar")]
-        public object Autenticar(
+        [Route("api/v1/User/Authenticate")]
+        public object Authenticate(
             [FromBody]AuthenticateUserRequest request,
             [FromServices]SigningConfigurations signingConfigurations,
             [FromServices]TokenConfigurations tokenConfigurations)
@@ -62,7 +62,7 @@ namespace YouLearn.Api.Controllers
                     new[] {
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
                         //new Claim(JwtRegisteredClaimNames.UniqueName, response.Usuario)
-                        new Claim("Usuario", JsonConvert.SerializeObject(response))
+                        new Claim("User", JsonConvert.SerializeObject(response))
                     }
                 );
 

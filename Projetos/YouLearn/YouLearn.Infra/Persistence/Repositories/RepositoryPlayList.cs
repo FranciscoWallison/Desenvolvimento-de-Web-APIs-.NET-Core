@@ -7,7 +7,7 @@ using YouLearn.Infra.Persistence.EF;
 
 namespace YouLearn.Infra.Persistence.Repositories
 {
-    public class RepositoryPlayList
+    public class RepositoryPlayList : IRepositoryPlayList
     {
 
         private readonly YouLearnContext _context;
@@ -34,7 +34,7 @@ namespace YouLearn.Infra.Persistence.Repositories
             return _context.PlayLists.Where(x => x.User.Id == idUser).ToList();
         }
 
-        public PlayList Obter(Guid idPlayList)
+        public PlayList Get(Guid idPlayList)
         {
             return _context.PlayLists.FirstOrDefault(x => x.Id == idPlayList);
         }
