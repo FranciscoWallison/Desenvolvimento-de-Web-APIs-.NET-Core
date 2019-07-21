@@ -19,11 +19,11 @@ namespace YouLearn.Domain.Services
         private readonly IRepositoryChannel _repositoryChanner;
         private readonly IRepositoryVideo _repositoryVideo;
 
-        public ServiceChannel(IRepositoryUser repositoryUser, IRepositoryChannel repositoryChannel/*, IRepositoryVideo repositoryVideo*/)
+        public ServiceChannel(IRepositoryUser repositoryUser, IRepositoryChannel repositoryChannel, IRepositoryVideo repositoryVideo)
         {
             _repositoryUser = repositoryUser;
             _repositoryChanner = repositoryChannel;
-            //_repositoryVideo = repositoryVideo;
+            _repositoryVideo = repositoryVideo;
         }
 
         public ChannelResponse AddChannel(AddChannelRequest request, Guid idUser)

@@ -9,7 +9,7 @@ namespace YouLearn.Domain.Interfaces.Repositories
         void Add(Video video);
         IEnumerable<Video> List(string tags);
         IEnumerable<Video> List(Guid idPlayList);
-        bool ThereIsAssociatedChannel(Guid idCanal);
-        bool ThereIsAssociatePlayList(Guid idPlayList);
+        bool ThereIsAssociatedChannel(Guid idChannel);
+        bool ThereIsAssociatedPlayList(Guid idPlayList);
     }
 }

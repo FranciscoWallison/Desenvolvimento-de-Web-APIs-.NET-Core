@@ -12339,6 +12339,7 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.7.9",
       "Swashbuckle.AspNetCore >= 4.0.1",
+      "YouLearn.Domain >= 1.0.0",
       "YouLearn.Infra >= 1.0.0"
     ]
   },
@@ -12372,6 +12373,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Domain\\YouLearn.Domain.csproj"
+            },
             "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj": {
               "projectPath": "C:\\Users\\User\\source\\repos\\Projetos\\Desenvolvimento-de-Web-APIs-.NET-Core\\Projetos\\YouLearn\\YouLearn.Infra\\YouLearn.Infra.csproj"
             }

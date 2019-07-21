@@ -43,7 +43,7 @@ namespace YouLearn.Domain.Services
 
         public Arguments.Base.Response DeletePlayList(Guid idPlayList)
         {
-            bool existe = _repositoryVideo.ThereIsAssociatePlayList(idPlayList);
+            bool existe = _repositoryVideo.ThereIsAssociatedPlayList(idPlayList);
 
             if (existe)
             {
