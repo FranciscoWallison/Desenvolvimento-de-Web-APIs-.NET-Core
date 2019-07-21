@@ -6,7 +6,7 @@ namespace YouLearn.Domain.Interfaces.Repositories
 {
     public interface IRepositoryVideo
     {
-        void Adicionar(Video video);
+        void Add(Video video);
         IEnumerable<Video> List(string tags);
         IEnumerable<Video> List(Guid idPlayList);
         bool ThereIsAssociatedChannel(Guid idCanal);
