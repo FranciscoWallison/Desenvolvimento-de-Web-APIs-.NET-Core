@@ -14,3 +14,4 @@ C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projet
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.AssemblyInfo.cs
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.dll
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.pdb
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\YouLearn.Shared\obj\Debug\netcoreapp2.2\YouLearn.Shared.csprojAssemblyReference.cache

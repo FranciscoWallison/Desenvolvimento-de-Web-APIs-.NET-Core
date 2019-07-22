@@ -40,6 +40,8 @@ namespace YouLearn.API
             services.AddTransient<IRepositoryVideo, RepositoryVideo>();
             services.AddTransient<IRepositoryUser, RepositoryUser>();
 
+            services.AddHttpContextAccessor();
+
             //Configuração do Token
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
