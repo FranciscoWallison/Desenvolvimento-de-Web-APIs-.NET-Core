@@ -26,3 +26,7 @@ C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projet
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.csproj.CopyComplete
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.dll
 C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\obj\Debug\netcoreapp2.2\ConsoleApp.Teste.Domain.pdb
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\YouLearn.Infra.dll
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\YouLearn.Shared.dll
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\YouLearn.Infra.pdb
+C:\Users\User\source\repos\Projetos\Desenvolvimento-de-Web-APIs-.NET-Core\Projetos\YouLearn\ConsoleApp.Teste.Domain\bin\Debug\netcoreapp2.2\YouLearn.Shared.pdb

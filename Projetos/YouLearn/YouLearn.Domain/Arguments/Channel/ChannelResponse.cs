@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace YouLearn.Domain.Arguments.Channel
 {
-    class ChannelResponse
+    public class ChannelResponse
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

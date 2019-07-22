@@ -24,7 +24,7 @@ namespace YouLearn.Infra.Persistence.EF.Map
             builder.Property(x => x.Title).HasMaxLength(200).IsRequired();
             builder.Property(x => x.Description).HasMaxLength(255).IsRequired();
             builder.Property(x => x.Tags).HasMaxLength(100).IsRequired();
-            builder.Property(x => x.OrdemNaPlayList);
+            builder.Property(x => x.OrderPlayList);
             //builder.Property(x => x.UrlLogo).HasMaxLength(200).IsRequired();
             builder.Property(x => x.IdVideoYoutube).HasMaxLength(50).IsRequired();
             builder.Property(x => x.Status).IsRequired();
