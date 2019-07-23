@@ -2,6 +2,6 @@
 {
     public static class Settings
     {
-        public static string ConnectionString = @"Server=.\sqlexpress;Database=YouLearnCurso;Trusted_Connection=True;";
+        public static string ConnectionString = @"Server=.\CHIOSERVE;Database=YouLearnCurso;Trusted_Connection=True;";
     }
 }

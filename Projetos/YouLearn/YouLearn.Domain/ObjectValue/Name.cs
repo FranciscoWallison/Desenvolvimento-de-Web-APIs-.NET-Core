@@ -7,6 +7,7 @@ namespace YouLearn.Domain.ObjectValue
 {
     public class Name : Notifiable
     {
+        protected Name() { }
         public Name(string firstName, string lastName)
         {
             FirstName = firstName;

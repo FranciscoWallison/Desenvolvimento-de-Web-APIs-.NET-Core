@@ -6,12 +6,9 @@
 
   <ItemGroup>
     <Folder Include="Entities\" />
-    <Folder Include="Arguments\" />
     <Folder Include="Diagrams\" />
     <Folder Include="Enums\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
     <Folder Include="Resources\" />
     <Folder Include="ObjectValue\" />
   </ItemGroup>
