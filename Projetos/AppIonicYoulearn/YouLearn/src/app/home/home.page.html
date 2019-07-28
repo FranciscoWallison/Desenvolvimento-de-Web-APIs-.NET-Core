@@ -15,11 +15,13 @@
     		Title
     	</ion-card-header>
     	<ion-card-content>
+    		<img src="https://i.ytimg.com/vi/SQNtGoM3FVU/hqdefault.jpg?sqp=-oaymwEiCNIBEHZIWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDPo5Tydo9shtb7f8BaOFx1sBa7DQ">
     		content
     	</ion-card-content>
+
     	<ion-row>
-    		<ion-col *ngIf="video.idPlayList">
-	    		<button ion-button icon-left clear small (click)="showPlayList(video)">
+    		<ion-col >
+	    		<button ion-button icon-left clear small>
 	    			<ion-icon name="md-albums"></ion-icon>
 	    			<div>
 	    				Ver playlist
@@ -27,10 +29,31 @@
 	    		</button>
 	    	</ion-col>
 	    	<ion-col>
-	    		
+	    		<button ion-button icon-left clear small>
+	    			<ion-icon name="text"></ion-icon>
+	    			<div>to share</div>
+	    		</button>
 	    	</ion-col>	
     	</ion-row>
     </ion-card>
     
+<ion-fab horizontal="end" vertical="bottom" slot="fixed">
+        <ion-fab-button color="light">
+          <ion-icon name="arrow-dropleft"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="start">
+          <ion-fab-button color="light">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button color="light">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button color="light">
+            <ion-icon name="logo-vimeo"></ion-icon>
+          </ion-fab-button>
+        </ion-fab-list>
+      </ion-fab>
+
+
   </div>
 </ion-content>
