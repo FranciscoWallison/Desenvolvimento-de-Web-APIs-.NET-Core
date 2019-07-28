@@ -9,7 +9,7 @@
 <ion-content>
   <div class="ion-padding">
     <!-- Default Searchbar -->
-    <ion-searchbar placeholder="Enter the desired class"></ion-searchbar>
+    <ion-searchbar placeholder="Enter the desired class" [showCancelButton] #tag (keyup.enter)="searchVideo(tag.value)"></ion-searchbar>
     <ion-card>
     	<ion-card-header>
     		Title
