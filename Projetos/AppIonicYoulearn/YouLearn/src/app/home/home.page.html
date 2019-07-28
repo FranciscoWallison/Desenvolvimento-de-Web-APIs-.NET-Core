@@ -1,14 +1,59 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Ionic Blank
+      You Learn
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <!-- Default Searchbar -->
+    <ion-searchbar placeholder="Enter the desired class"></ion-searchbar>
+    <ion-card>
+    	<ion-card-header>
+    		Title
+    	</ion-card-header>
+    	<ion-card-content>
+    		<img src="https://i.ytimg.com/vi/SQNtGoM3FVU/hqdefault.jpg?sqp=-oaymwEiCNIBEHZIWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDPo5Tydo9shtb7f8BaOFx1sBa7DQ">
+    		content
+    	</ion-card-content>
+
+    	<ion-row>
+    		<ion-col >
+	    		<button ion-button icon-left clear small>
+	    			<ion-icon name="md-albums"></ion-icon>
+	    			<div>
+	    				Ver playlist
+	    			</div>
+	    		</button>
+	    	</ion-col>
+	    	<ion-col>
+	    		<button ion-button icon-left clear small>
+	    			<ion-icon name="text"></ion-icon>
+	    			<div>to share</div>
+	    		</button>
+	    	</ion-col>	
+    	</ion-row>
+    </ion-card>
+    
+<ion-fab horizontal="end" vertical="bottom" slot="fixed">
+        <ion-fab-button color="light">
+          <ion-icon name="arrow-dropleft"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="start">
+          <ion-fab-button color="light">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button color="light">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button color="light">
+            <ion-icon name="logo-vimeo"></ion-icon>
+          </ion-fab-button>
+        </ion-fab-list>
+      </ion-fab>
+
+
   </div>
 </ion-content>
