@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { LoadingController } from '@ionic/angular';
+import { UtilService } from 'src/providers/util.service';
+//import { UtilService } from ' ./../providers/util.service';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { LoadingController } from '@ionic/angular';
 })
 export class HomePage {
 
-  constructor(public loadingController: LoadingController) {}
+  constructor(private utilService: UtilService) {}
 
 	searchVideo(tag : string ){
 		console.log(tag);
@@ -20,16 +21,8 @@ export class HomePage {
 		this.loadVideo(tag);
 	}
 
-	async loadVideo(tag : string){
-		const  loading = await this.loadingController.create({
-			spinner: null,
-			duration: 5000,
-			message: 'Please wait...',
-			translucent: true,
-			cssClass: 'custom-class custom-loading'
-		});
-    	
-    	return  await loading.present();
+	loadVideo(tag : string){
+		let loading = this.utilService.presentLoadingWithOptions();
 	}
 
 }
