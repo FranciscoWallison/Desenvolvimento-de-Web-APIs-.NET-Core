@@ -1,14 +1,14 @@
 import { UtilService } from './util.service';
 import { Injectable } from '@angular/core';
 import { Headers, Http, Response } from '@angular/http';
-import 'rxjs/operators/toPromise';
+import { Observable } from 'rxjs'; 
 
 @Injectable()
 
 export class VideoService {
     constructor(public http: Http, public utilService: UtilService ){}
 
-    listar(tags: string): Promise<Response> {
+    listarPorTags(tags: string): Promise<Response> {
         let host = this.utilService.obterHostDaApi();
 
         let headers = new Headers();
