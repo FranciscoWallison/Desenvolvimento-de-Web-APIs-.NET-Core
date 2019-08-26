@@ -9,16 +9,24 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { UtilService } from '../providers/util.service';
+import { VideoService } from 'src/providers/video.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [
+    BrowserModule, 
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    HttpModule//erro circular, chamas em http
+  ],
   providers: [
     StatusBar,
     SplashScreen,    
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     UtilService,
+    VideoService,
   ],
   bootstrap: [AppComponent]
 })
