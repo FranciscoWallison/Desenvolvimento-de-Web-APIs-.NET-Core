@@ -7,3 +7,6 @@
 - [Dotnet CLI](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
 - [dotnet tools](https://docs.microsoft.com/pt-br/dotnet/core/tools/dotnet-new?tabs=netcore22)
 - [swagger](https://aspnetcore.readthedocs.io/en/stable/tutorials/web-api-help-pages-using-swagger.html)
+
+#### 2 - 
+[Aplicação .NET de forma gratuita](https://www.fl0.com/)
