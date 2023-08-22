@@ -1,4 +1,4 @@
-# descoontinuado Desenvolvimento de Web APIs .NET Core
+# Descoontinuado o desenvolvimento de Web APIs .NET Core
 
 
 #### 1 - Instalação dos softwares e ferramentas
